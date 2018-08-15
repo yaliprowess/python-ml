@@ -6,7 +6,7 @@ df = pd.read_csv('gold_daily_rate.csv',index_col='Name',parse_dates=True)
 data = df['Indian rupee'].replace('[\,]', '', regex=True).astype(float)
 df_new = pd.DataFrame(data=data,index=df.index)
 
-dec_2010_to_feb_2018 = df_new['2005':'2018'].resample('M')
+dec_2010_to_feb_2018 = df_new['2010':'2018'].resample('M')
 dec_2010_to_feb_2018_median = dec_2010_to_feb_2018.mean()
 dec_2010_to_feb_2018_max = dec_2010_to_feb_2018.max()
 dec_2010_to_feb_2018_min = dec_2010_to_feb_2018.min()
