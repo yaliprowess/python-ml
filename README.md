@@ -2,16 +2,15 @@
 This is going to be step by step improvement that I am trying my after Datacamp course completion
 ## Step-1 : Analysing gold rate from real world data
 
-- Data :  gold_daily_rate.csv
+- Data :  Prices.xlsx
 - IDE : PyCharm
-- Library : matlablib, pandas
+- Library : matlablib, pandas , xlrd
 
 ### Execute
 - Run -> gold_daily_rate.csv
 
 ### Trouble shooting
-- If the imported libraries are throwing exception please follow [Resolve library - stack overflow](https://stackoverflow.com/questions/19885821/how-do-i-import-modules-in-pycharm)
- 
+- Pycharm -> Preferences -> Project -> Project interpreter -> Click add button -> type library name to install in the search and add
 ### Excepted
 Gold rate data has been generated as graphical report for the period of 2010 to 2018
 
